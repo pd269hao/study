@@ -1,4 +1,4 @@
-package study;
+package org.dragon.practice.study.base;
 
 import java.util.HashMap;
 import java.util.Map;

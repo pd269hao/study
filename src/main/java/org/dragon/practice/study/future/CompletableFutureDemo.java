@@ -1,4 +1,4 @@
-package future;
+package org.dragon.practice.study.future;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -15,7 +15,7 @@ public class CompletableFutureDemo {
 
     public static void main(String[] args) {
         CompletableFuture<Integer> future = CompletableFuture.supplyAsync(() -> {
-            log.info("future");
+            log.info("org/dragon/practice/study/future");
             return 1;
         });
 

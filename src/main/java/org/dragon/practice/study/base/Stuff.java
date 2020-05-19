@@ -1,9 +1,6 @@
-package study;
-
-import sun.nio.ch.ThreadPool;
+package org.dragon.practice.study.base;
 
 import java.io.Serializable;
-import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * Created by liuwl on 2018/1/20.

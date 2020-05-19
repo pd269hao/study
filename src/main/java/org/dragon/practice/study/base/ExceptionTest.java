@@ -1,4 +1,4 @@
-package study;
+package org.dragon.practice.study.base;
 
 /**
  * Created by liuwl on 2018/1/18.

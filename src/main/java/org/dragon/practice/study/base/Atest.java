@@ -1,4 +1,4 @@
-package study;
+package org.dragon.practice.study.base;
 
 import lombok.extern.slf4j.Slf4j;
 

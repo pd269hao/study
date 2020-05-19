@@ -1,8 +1,7 @@
-package study;
+package org.dragon.practice.study.base;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Created by liuwl on 2018/1/20.
@@ -18,7 +17,7 @@ public class ReflectTest {
             a.print();
             System.out.print(a.value);
             Object object=Stuff.class.newInstance();
-            if (object.getClass()==Class.forName("study.Stuff")) {
+            if (object.getClass()==Class.forName("org.dragon.practice.study.base.Stuff")) {
                 System.out.println("类型正确");
 
                 Class c=object.getClass();
