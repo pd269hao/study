@@ -1,9 +1,9 @@
 package org.dragon.practice.study.pattern.abstractfactory;
 
-import com.dragon.practise.design.pattern.pattern.abstractfactory.model.Door;
-import com.dragon.practise.design.pattern.pattern.abstractfactory.model.DoorNeedSpell;
-import com.dragon.practise.design.pattern.pattern.abstractfactory.model.EnchantedRoom;
-import com.dragon.practise.design.pattern.pattern.abstractfactory.model.Room;
+import org.dragon.practice.study.pattern.abstractfactory.model.Door;
+import org.dragon.practice.study.pattern.abstractfactory.model.DoorNeedSpell;
+import org.dragon.practice.study.pattern.abstractfactory.model.EnchantedRoom;
+import org.dragon.practice.study.pattern.abstractfactory.model.Room;
 
 /**
  * Created with IntelliJ IDEA.

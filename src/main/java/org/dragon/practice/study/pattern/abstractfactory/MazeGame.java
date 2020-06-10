@@ -1,6 +1,6 @@
 package org.dragon.practice.study.pattern.abstractfactory;
 
-import com.dragon.practise.design.pattern.pattern.abstractfactory.model.Maze;
+import org.dragon.practice.study.pattern.abstractfactory.model.Maze;
 
 /**
  * Created with IntelliJ IDEA.

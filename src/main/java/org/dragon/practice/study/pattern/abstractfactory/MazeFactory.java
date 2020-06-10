@@ -1,9 +1,9 @@
 package org.dragon.practice.study.pattern.abstractfactory;
 
-import com.dragon.practise.design.pattern.pattern.abstractfactory.model.Door;
-import com.dragon.practise.design.pattern.pattern.abstractfactory.model.Maze;
-import com.dragon.practise.design.pattern.pattern.abstractfactory.model.Room;
-import com.dragon.practise.design.pattern.pattern.abstractfactory.model.Wall;
+import org.dragon.practice.study.pattern.abstractfactory.model.Door;
+import org.dragon.practice.study.pattern.abstractfactory.model.Maze;
+import org.dragon.practice.study.pattern.abstractfactory.model.Room;
+import org.dragon.practice.study.pattern.abstractfactory.model.Wall;
 
 /**
  * Created with IntelliJ IDEA.
