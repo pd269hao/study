@@ -1,7 +1,5 @@
 package org.dragon.practice.study.algorithm;
 
-import com.alibaba.fastjson.JSON;
-
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -221,7 +219,7 @@ public class WordSearch {
     }
 
     public static void main(String[] args) {
-        char[][] board = JSON.parseObject("[[\"a\",\"a\"]]", char[][].class);
-        System.out.println(new WordSearch().findWords(board, new String[]{"aaa"}));
+        int[] prices = new int[]{1,2,3,0,2};
+        System.out.println(StockPurchase.maxProfitWithCooldown(prices));
     }
 }
