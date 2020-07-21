@@ -22,7 +22,7 @@ public class RearrangeWordsInSentence {
                 word += text.charAt(i);
             }
         }
-        for(int i=0;i<wordList.size();i++){
+        for (int i = 0; i < wordList.size(); i++) {
         }
 
         return text;
