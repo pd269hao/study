@@ -1,6 +1,9 @@
 package org.dragon.practice.study.algorithm;
 
 import com.alibaba.fastjson.JSON;
+import org.dragon.practice.study.algorithm.sort.Bubble;
+import org.dragon.practice.study.algorithm.sort.Merge;
+import org.dragon.practice.study.algorithm.sort.Quick;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -221,9 +224,10 @@ public class WordSearch {
     }
 
     public static void main(String[] args) {
-        int[] prices = new int[]{1, 2, 5};
+        int[] prices = new int[]{1, 2, 5, 4,3};
         char[][] chars = JSON.parseObject("[[\"1\",\"1\",\"1\",\"1\",\"0\"],[\"1\",\"1\",\"0\",\"1\",\"0\"],[\"1\",\"1\",\"0\",\"0\",\"0\"],[\"0\",\"0\",\"0\",\"0\",\"0\"]]", char[][].class);
 //        System.out.println(CoinChange.coinChange(prices, 11));
-        System.out.println(Island.numIslands(chars));
+        System.out.println(JSON.toJSONString(Bubble.sort(prices)));
+        RuntimeException
     }
 }
