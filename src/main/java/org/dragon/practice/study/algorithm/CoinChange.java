@@ -5,8 +5,7 @@ package org.dragon.practice.study.algorithm;
  * 兑换零钱，有一些零钱面额，每种面额数量不限
  * 给定一个总零钱数，找出最少数量的零钱数，使面值相等
  * <p>
- * dp[i] 表示共兑换i元所需要的最少零钱数
- * dp[i] = min(dp[i-coin[j]]) + 1.
+ * dp[i] 兑换金额为i所需要的最小零钱数量
  *
  * @Author: Liuwl
  * Date: 2020/7/17
@@ -34,5 +33,16 @@ public class CoinChange {
         }
 
         return dp[amount] == null ? -1 : dp[amount];
+    }
+
+    /**
+     * 兑换指定金额的所有兑换方式数量
+     *
+     * @param coins
+     * @param amount
+     * @return
+     */
+    public static int coinChange1(int[] coins, int amount) {
+        return 0;
     }
 }

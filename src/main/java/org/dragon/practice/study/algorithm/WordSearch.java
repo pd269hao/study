@@ -2,8 +2,6 @@ package org.dragon.practice.study.algorithm;
 
 import com.alibaba.fastjson.JSON;
 import org.dragon.practice.study.algorithm.sort.Bubble;
-import org.dragon.practice.study.algorithm.sort.Merge;
-import org.dragon.practice.study.algorithm.sort.Quick;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -224,10 +222,26 @@ public class WordSearch {
     }
 
     public static void main(String[] args) {
-        int[] prices = new int[]{1, 2, 5, 4,3};
+        LRUCache cache = new LRUCache(3);
+        cache.put(1, 1);
+        cache.put(2, 2);
+        cache.put(3, 3);
+        cache.put(4, 4);
+        System.out.println(cache.get(4));
+        System.out.println(cache.get(3));
+        System.out.println(cache.get(2));
+        System.out.println(cache.get(1));
+        cache.put(5, 5);
+        System.out.println(cache.get(1));
+        System.out.println(cache.get(2));
+        System.out.println(cache.get(3));
+        System.out.println(cache.get(4));
+        System.out.println(cache.get(5));
+
+
+        int[] prices = new int[]{1, 2, 5, 4, 3};
         char[][] chars = JSON.parseObject("[[\"1\",\"1\",\"1\",\"1\",\"0\"],[\"1\",\"1\",\"0\",\"1\",\"0\"],[\"1\",\"1\",\"0\",\"0\",\"0\"],[\"0\",\"0\",\"0\",\"0\",\"0\"]]", char[][].class);
 //        System.out.println(CoinChange.coinChange(prices, 11));
         System.out.println(JSON.toJSONString(Bubble.sort(prices)));
-        RuntimeException
     }
 }
